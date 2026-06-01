@@ -123,9 +123,9 @@ describe('Workspace Members - List (AC 1)', function () {
     });
 
     test('search filter matches on name', function () {
-        $owner = User::factory()->create();
-        $john = User::factory()->create(['name' => 'John Doe']);
-        $jane = User::factory()->create(['name' => 'Jane Smith']);
+        $owner = User::factory()->create(['name' => 'Alice Owner', 'email' => 'alice.owner@example.com']);
+        $john = User::factory()->create(['name' => 'John Doe', 'email' => 'john.doe@example.com']);
+        $jane = User::factory()->create(['name' => 'Jane Smith', 'email' => 'jane.smith@example.com']);
         $workspace = Workspace::factory()->create(['owner_id' => $owner->id]);
 
         $workspace->addMember($owner, 'owner');
