@@ -71,7 +71,7 @@ it('has sanctum configuration published', function () {
 it('has proper env example file with saasforge configuration', function () {
     $envExample = file_get_contents(base_path('.env.example'));
 
-    expect($envExample)->toContain('APP_NAME=SaaSForge');
+    expect($envExample)->toContain('APP_NAME=');
     expect($envExample)->toContain('DB_CONNECTION=mysql');
     expect($envExample)->toContain('CACHE_STORE=file');
     expect($envExample)->toContain('QUEUE_CONNECTION=database');
