@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -eu
+
+echo "[pre-commit] Running static analysis..."
+composer analyse
+
+echo "[pre-commit] Checking code style..."
+composer format:test
+
+echo "[pre-commit] Quality checks passed."

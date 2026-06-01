@@ -1,0 +1,847 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method App\\Enums\\WorkspaceRole\:\:permissions\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Enums/WorkspaceRole.php
+
+		-
+			message: '#^Parameter \#2 \$auditable of static method App\\Services\\AuditService\:\:log\(\) expects Illuminate\\Database\\Eloquent\\Model, App\\Models\\User\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Api/V1/AdminController.php
+
+		-
+			message: '#^Cannot call method endOfDay\(\) on Illuminate\\Support\\Carbon\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/AuditLogController.php
+
+		-
+			message: '#^Access to an undefined property object\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/V1/AuthController.php
+
+		-
+			message: '#^Access to an undefined property object\:\:\$token\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/V1/AuthController.php
+
+		-
+			message: '#^Cannot access property \$id on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/V1/AuthController.php
+
+		-
+			message: '#^Cannot call method currentAccessToken\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/AuthController.php
+
+		-
+			message: '#^Cannot call method tokens\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/V1/AuthController.php
+
+		-
+			message: '#^Cannot call method belongsToWorkspace\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/MyWorkspaceController.php
+
+		-
+			message: '#^Cannot call method createToken\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/MyWorkspaceController.php
+
+		-
+			message: '#^Cannot call method roleInWorkspace\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/MyWorkspaceController.php
+
+		-
+			message: '#^Cannot call method workspaces\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/MyWorkspaceController.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Socialite\\Contracts\\User\:\:\$token\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Call to an undefined method Laravel\\Socialite\\Contracts\\Provider\:\:stateless\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\V1\\OAuthController\:\:fetchGithubPrimaryEmail\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\V1\\OAuthController\:\:redirectToProvider\(\) has parameter \$scopes with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\V1\\OAuthController\:\:resolveProviderEmail\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Parameter \#2 \$existing of method App\\Http\\Controllers\\Api\\V1\\OAuthController\:\:resolveEmailVerifiedAt\(\) expects Illuminate\\Support\\Carbon\|null, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Api/V1/OAuthController.php
+
+		-
+			message: '#^Cannot access property \$email on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot access property \$email_verified_at on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot access property \$password on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot call method fill\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot call method save\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot call method sendEmailVerificationNotification\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProfileController.php
+
+		-
+			message: '#^Cannot access property \$id on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProjectController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\V1\\ProjectController\:\:parseSortTokens\(\) should return array\<int, array\{string, ''asc''\|''desc''\}\> but returns array\<int, array\{string, string\}\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Http/Controllers/Api/V1/ProjectController.php
+
+		-
+			message: '#^Cannot call method hasVerifiedEmail\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/VerificationController.php
+
+		-
+			message: '#^Cannot call method sendEmailVerificationNotification\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/VerificationController.php
+
+		-
+			message: '#^Parameter \#1 \$user of method App\\Models\\Workspace\:\:addMember\(\) expects App\\Models\\User, App\\Models\\User\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceController.php
+
+		-
+			message: '#^Cannot access property \$email on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceInvitationController.php
+
+		-
+			message: '#^Cannot access property \$id on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceInvitationController.php
+
+		-
+			message: '#^Cannot call method addMember\(\) on Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceInvitationController.php
+
+		-
+			message: '#^Cannot call method belongsToWorkspace\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceInvitationController.php
+
+		-
+			message: '#^Using nullsafe method call on non\-nullable type Carbon\\Carbon\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceInvitationController.php
+
+		-
+			message: '#^Cannot access property \$email on Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceMemberController.php
+
+		-
+			message: '#^Cannot access property \$id on App\\Models\\User\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/V1/WorkspaceMemberController.php
+
+		-
+			message: '#^Cannot access property \$name on Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceMemberController.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,App\\Models\\WorkspaceMember\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceMemberController.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,App\\Models\\WorkspaceMember\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Http/Controllers/Api/V1/WorkspaceMemberController.php
+
+		-
+			message: '#^Cannot call method addMember\(\) on Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/WorkspaceInvitationAcceptController.php
+
+		-
+			message: '#^Cannot call method belongsToWorkspace\(\) on App\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/WorkspaceInvitationAcceptController.php
+
+		-
+			message: '#^Call to function is_array\(\) with array will always evaluate to true\.$#'
+			identifier: function.alreadyNarrowedType
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Method App\\Http\\Middleware\\SetCurrentWorkspace\:\:resolveFromDomain\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Method App\\Http\\Middleware\\SetCurrentWorkspace\:\:resolveFromHeader\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Method App\\Http\\Middleware\\SetCurrentWorkspace\:\:resolveFromRoute\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Method App\\Http\\Middleware\\SetCurrentWorkspace\:\:resolveFromSubdomain\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Method App\\Http\\Middleware\\SetCurrentWorkspace\:\:resolveFromToken\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Middleware/SetCurrentWorkspace.php
+
+		-
+			message: '#^Access to an undefined property \(object\|string\)\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/InviteWorkspaceMemberRequest.php
+
+		-
+			message: '#^Access to an undefined property \(object\|string\)\:\:\$owner_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Requests/InviteWorkspaceMemberRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\InviteWorkspaceMemberRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/InviteWorkspaceMemberRequest.php
+
+		-
+			message: '#^Parameter \#1 \$workspace of method App\\Models\\User\:\:belongsToWorkspace\(\) expects App\\Models\\Workspace, \(object\|string\) given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Requests/InviteWorkspaceMemberRequest.php
+
+		-
+			message: '#^Parameter \#1 \$workspace of method App\\Models\\User\:\:roleInWorkspace\(\) expects App\\Models\\Workspace, \(object\|string\) given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Requests/InviteWorkspaceMemberRequest.php
+
+		-
+			message: '#^Access to an undefined property \(object\|string\|null\)\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/UpdateProjectRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\UpdateWorkspaceMemberRoleRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/UpdateWorkspaceMemberRoleRequest.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$auditable_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$auditable_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$event\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$ip_address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$new_values\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$old_values\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\AuditLogResource\:\:\$user_agent\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/AuditLogResource.php
+
+		-
+			message: '#^Cannot call method currentPage\(\) on class\-string\|object\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/ProjectCollection.php
+
+		-
+			message: '#^Cannot call method lastPage\(\) on class\-string\|object\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/ProjectCollection.php
+
+		-
+			message: '#^Cannot call method perPage\(\) on class\-string\|object\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/ProjectCollection.php
+
+		-
+			message: '#^Cannot call method total\(\) on class\-string\|object\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/ProjectCollection.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$created_by\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$updated_by\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$workspace_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$avatar\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$email_verified_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$github_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$google_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$domain\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$members\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$owner\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\WorkspaceResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/WorkspaceResource.php
+
+		-
+			message: '#^Method App\\Models\\AuditLog\:\:auditable\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AuditLog.php
+
+		-
+			message: '#^Method App\\Models\\AuditLog\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AuditLog.php
+
+		-
+			message: '#^Method App\\Models\\AuditLog\:\:workspace\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AuditLog.php
+
+		-
+			message: '#^PHPDoc tag @method for method App\\Models\\Concerns\\BelongsToWorkspace\:\:acrossWorkspaces\(\) return type contains generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Concerns/BelongsToWorkspace.php
+
+		-
+			message: '#^PHPDoc tag @method for method App\\Models\\Concerns\\BelongsToWorkspace\:\:forAllWorkspaces\(\) return type contains generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Concerns/BelongsToWorkspace.php
+
+		-
+			message: '#^Class App\\Models\\Project uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:creator\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:scopeAcrossWorkspaces\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:scopeAcrossWorkspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:scopeForAllWorkspaces\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:scopeForAllWorkspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:updater\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Method App\\Models\\Project\:\:workspace\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^PHPDoc type array\<string\> of property App\\Models\\Project\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/Project.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Relations\\Pivot\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:ownedWorkspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:workspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany does not specify its types\: TRelatedModel, TDeclaringModel, TPivotModel, TAccessor \(2\-4 required\)$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Relations\\Pivot\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Class App\\Models\\Workspace uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Method App\\Models\\Workspace\:\:addMember\(\) should return App\\Models\\WorkspaceMember but returns App\\Models\\WorkspaceMember\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Method App\\Models\\Workspace\:\:members\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany does not specify its types\: TRelatedModel, TDeclaringModel, TPivotModel, TAccessor \(2\-4 required\)$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Method App\\Models\\Workspace\:\:owner\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Method App\\Models\\Workspace\:\:projects\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Method App\\Models\\Workspace\:\:workspaceMembers\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property App\\Models\\Workspace\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Builder\<Illuminate\\Database\\Eloquent\\Model\>\:\:each\(\) expects callable\(Illuminate\\Database\\Eloquent\\Model, int\)\: mixed, Closure\(App\\Models\\Project\)\: \(bool\|null\) given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Models/Workspace.php
+
+		-
+			message: '#^Class App\\Models\\WorkspaceInvitation uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:inviter\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:scopeAcrossWorkspaces\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:scopeAcrossWorkspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:scopeForAllWorkspaces\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:scopeForAllWorkspaces\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceInvitation\:\:workspace\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceInvitation.php
+
+		-
+			message: '#^Class App\\Models\\WorkspaceMember uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceMember.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceMember\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceMember.php
+
+		-
+			message: '#^Method App\\Models\\WorkspaceMember\:\:workspace\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/WorkspaceMember.php
+
+		-
+			message: '#^Access to an undefined property object\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Notifications/ResetPasswordNotification.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Notifications/WorkspaceInvitationNotification.php
+
+		-
+			message: '#^Cannot access property \$name on Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: app/Notifications/WorkspaceInvitationNotification.php
+
+		-
+			message: '#^Method App\\Notifications\\WorkspaceInvitationNotification\:\:via\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Notifications/WorkspaceInvitationNotification.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Notifications/WorkspaceInvitationNotification.php
+
+		-
+			message: '#^Property App\\Models\\Project\:\:\$created_by \(int\|null\) does not accept int\|string\|null\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: app/Observers/ProjectObserver.php
+
+		-
+			message: '#^Property App\\Models\\Project\:\:\$updated_by \(int\|null\) does not accept int\|string\|null\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: app/Observers/ProjectObserver.php
+
+		-
+			message: '#^Parameter \#2 \$workspace of method App\\Policies\\BaseWorkspacePolicy\:\:isAdmin\(\) expects App\\Models\\Workspace\|null, Illuminate\\Database\\Eloquent\\Model\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Policies/WorkspaceMemberPolicy.php
+
+		-
+			message: '#^Parameter \#2 \$workspace of method App\\Policies\\BaseWorkspacePolicy\:\:isOwner\(\) expects App\\Models\\Workspace\|null, Illuminate\\Database\\Eloquent\\Model\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Policies/WorkspaceMemberPolicy.php
+
+		-
+			message: '#^Method App\\Scopes\\WorkspaceScope\:\:apply\(\) has parameter \$builder with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Scopes/WorkspaceScope.php
+
+		-
+			message: '#^Method App\\Services\\AuditService\:\:log\(\) has parameter \$newValues with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Services/AuditService.php
+
+		-
+			message: '#^Method App\\Services\\AuditService\:\:log\(\) has parameter \$oldValues with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Services/AuditService.php
